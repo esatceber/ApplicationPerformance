@@ -35,5 +35,3 @@ class MyAgent:
 
     def log_request(self, request, response, duration):
         self.metrics.append({'path': request.path,'method': request.method,'status_code': response.status_code,'duration': duration})
-   
-        
